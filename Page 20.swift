@@ -1,9 +1,9 @@
-func sumOf(numbers: Int...) -> Int {
-    var sum = 0
+func averageOf(numbers: Int...) -> Int {
+    var average = 0
     for number in numbers {
-        sum += number
+        average += number
     }
-    return sum
+    return average
 }
-sumOf()
-sumOf(numbers: 42, 597, 12)
+averageOf()
+averageOf(numbers: 42, 597, 12)
